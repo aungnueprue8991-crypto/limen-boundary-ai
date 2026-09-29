@@ -1,0 +1,12 @@
+{
+  "name": "Limen",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "mkdir -p archive && pip install -q -r requirements.txt || true",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      }
+    }
+  }
+}
